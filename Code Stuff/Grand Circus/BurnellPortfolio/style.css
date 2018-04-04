@@ -1,0 +1,326 @@
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Orbitron, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(68, 68, 68, .5);
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px black;
+    color: lime;
+}
+
+body {
+    background-image: url("simpleBg1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Kalam, sans-serif;
+}
+
+.topNavContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* overflow: hidden; */
+    flex-direction: column;
+    margin: 10px 35px;
+}
+
+.topNavContainer a {
+    background-color: rgb(12, 34, 68);
+    border: 1px solid black;
+    color: aliceblue;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 18px;
+    width: 20%;
+}
+
+.topNavContainer a:hover {
+    background-color: rgb(252, 70, 20);
+    color: aliceblue;
+}
+
+.indexH1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: Orbitron, sans-serif;
+    font-size: 14px;
+    background-color: rgba(68, 68, 68, .5);
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 15px;
+    color: lime;
+    box-shadow: 5px 5px 5px black;
+}
+
+.indexH2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: Caveat, sans-serif;
+    font-size: 18px;
+    background-color: rgba(68, 68, 68, .5);
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 15px;
+    color: blue;
+    box-shadow: 5px 5px 5px black;
+}
+
+.indexFlexContainer {
+    display: flex;
+}
+
+.indexMainContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: Kalam, sans-serif;
+    font-size: 20px;
+    background-color: rgba(68, 68, 68, .5);
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    color: orangered;
+    box-shadow: 0px 5px 5px black;
+    flex: 3;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: Kalam, sans-serif;
+    font-size: 20px;
+    background-color: rgba(68, 68, 68, .5);
+    margin-top: 20px;
+    /* margin-left: 5%; */
+    margin-right: 5%;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    color: orangered;
+    box-shadow: 5px 5px 5px black;
+    flex: 1;
+}
+
+.indexPicContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+#coffee,
+#r6,
+#codeMeme {
+    box-shadow: 5px 5px 5px black;
+    border-radius: 40px;
+    max-width: 100%;
+    object-fit: fill;
+    width: 350px;
+    height: 350px;
+}
+
+.aboutH1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: Orbitron, sans-serif;
+    font-size: 14px;
+    color: orangered;
+    background-color: rgba(68, 68, 68, .5);
+    border-radius: 15px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.aboutSec {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: blue;
+    font-family: Caveat, sans-serif;
+    font-size: 20px;
+}
+
+.aboutSec a:hover {
+    color: purple;
+}
+
+.aboutSec a:link {
+    color: red;
+}
+
+.aboutSec a:visited {
+    color: green;
+}
+
+#aboutContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 18px;
+    background-color: rgba(68, 68, 68, .8);
+    border-radius: 15px;
+    /* margin: 2% 5%;  */
+    box-shadow: 5px 5px 5px black;
+}
+
+.unOrder {
+    display: flex;
+    flex-direction: column;
+    font-family: kalam, monospace;
+    color: lime;
+}
+
+.orderList {
+    display: flex;
+    flex-direction: column;
+    font-family: kalam, monospace;
+    color: lime;
+}
+
+.aboutImage {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: rgba(255, 255, 255, .7)
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: rgba(255, 255, 255, .7)
+}
+
+input[type=text]:placeholder {
+    color: black;
+    opacity: 0.7;
+}
+
+input[type=submit] {
+    background-color: rgb(252, 70, 20);
+    color: rgb(12, 34, 68);
+    padding: 12px 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: 0.3s;
+    font-size: 18px;
+    /* width: 60%; */
+}
+
+input[type=submit]:hover {
+    opacity: 1;
+    background-color: dodgerblue;
+    color: black;
+}
+
+.contactContainer {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(95, 95, 95, .7);
+    padding: 20px;
+}
+
+@media (min-width: 768px) {
+    #indexBgImage {
+        background-image: url("madeinmichigan.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .indexPicContainer {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .topNavContainer {
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+        overflow: hidden;
+    }
+    .topNavContainer a {
+        width: auto;
+    }
+    .indexH2 {
+        font-size: 30px
+    }
+    #aboutBgImage {
+        background-image: url("detroitSkyline.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    #contactBgImage {
+        background-image: url("detroitMural.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    #aboutContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        font-size: 25px;
+        background-color: rgba(68, 68, 68, .5);
+        border-radius: 15px;
+        margin: 2% 10%;
+        box-shadow: 5px 5px 5px black;
+    }
+    .aboutImage {
+        width: 350px;
+        height: 500px;
+    }
+    .aboutSec {
+        font-size: 35px;
+    }
+}
